@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gridding</title>
+  </head>
+  <body style="padding-bottom: 1000px;">
+    <div style="
+         display: grid;
+         grid-template-columns: 100px 200px 100px;
+          ">
+    
+      <div style="background-color: lightblue;">div1</div>
+       <div style="background-color: lightpink;">div2</div>
+       <div style="background-color: lightblue;">div3</div>
+
+   </div>
+
+    <div style="
+      display: grid;
+      grid-template-columns: 100px 200px 1fr;
+      ">
+
+      <div style="background-color: lightblue;">div1</div>
+      <div style="background-color: lightpink;">div2</div>
+      <div style="background-color: lightblue;">div3</div>
+
+    </div>
+    <br>
+    <div style="
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+    
+    ">
+    
+    <div style="height: 150px; background-color: lightblue;">1fr</div>
+    <div style="height: 150px; background-color: lightpink;">1fr</div>
+    <div style="height: 150px; background-color: lightblue;">1fr</div>
+    <div style="height: 150px; background-color: lightpink;">1fr</div>
+    <div style="height: 150px; background-color: lightblue;">1fr</div>
+    <div style="height: 150px; background-color: lightpink;">1fr</div>
+  </div>
+    
+  </body>
+</html>

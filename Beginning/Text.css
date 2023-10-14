@@ -1,0 +1,29 @@
+p {
+  font-family: Arial;
+}
+.video-title {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 18px;
+  width: 300px;
+  line-height: 24px;
+}
+
+.Apple {
+  background-color: rgb(200, 0, 0);
+  padding: 20px 18px;
+  color: white;
+  text-align: center;
+  cursor: default;
+}
+
+.link{
+  color: white;
+  
+}
+.link:hover{
+  text-decoration: underline;
+  color: yellow;
+  cursor: pointer;
+}
+  
